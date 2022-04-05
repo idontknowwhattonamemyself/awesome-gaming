@@ -1,4 +1,4 @@
-local New_CFrame = CFrame.new(777, -256, 5849)
+local New_CFrame = CFrame.new(0,10,0)
 
 
 local ts = game:GetService("TweenService")
@@ -8,37 +8,4 @@ local char = game.Players.LocalPlayer.Character
 local part = char.HumanoidRootPart
 local ti = TweenInfo.new(1, Enum.EasingStyle.Linear)
 local tp = {CFrame = New_CFrame}
-ts:Create(part, ti, tp):Play()
-wait(2)
- New_CFrame = CFrame.new(776, -300, 5850)
-
-
-local ts = game:GetService("TweenService")
-local uis = game:GetService("UserInputService")
-local char = game.Players.LocalPlayer.Character
-
-local part = char.HumanoidRootPart
-local ti = TweenInfo.new(1, Enum.EasingStyle.Linear)
-local tp = {CFrame = New_CFrame}
-ts:Create(part, ti, tp):Play()
-local New_CFrame = CFrame.new(748, -288, 5870)
-wait(4)
-
-local ts = game:GetService("TweenService")
-local uis = game:GetService("UserInputService")
-local char = game.Players.LocalPlayer.Character
-
-local part = char.HumanoidRootPart
-local ti = TweenInfo.new(1, Enum.EasingStyle.Linear)
-local tp = {CFrame = New_CFrame}
-ts:Create(part, ti, tp):Play()
-wait(6)
-local New_CFrame = CFrame.new(699, -294, 5869)
-local ts = game:GetService("TweenService")
-local uis = game:GetService("UserInputService")
-local char = game.Players.LocalPlayer.Character
-
-local part = char.HumanoidRootPart
-local ti = TweenInfo.new(1, Enum.EasingStyle.Linear)
-local tp = {CFrame = New_CFrame}
-ts:Create(part, ti, tp):Play
+ ts:Create(part, ti, tp):Play()
